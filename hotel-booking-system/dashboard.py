@@ -56,6 +56,18 @@ class DashboardWindow(QWidget):
         cancel_button.clicked.connect(self.cancel_selected_booking)
         main_layout.addWidget(cancel_button)
 
+        cancel_button.setStyleSheet("""
+    QPushButton {
+        background-color: #e74c3c;
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    QPushButton:hover {
+        background-color: #c0392b;
+    }
+""")
+
         logout_button = QPushButton("Logout")
         logout_button.clicked.connect(self.logout)
         main_layout.addWidget(logout_button)
