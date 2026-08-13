@@ -24,6 +24,19 @@ class LoginWindow(QWidget):
         register_button = QPushButton("Create New Account")
         register_button.clicked.connect(self.open_register)
 
+        login_button.setStyleSheet("""
+    QPushButton {
+        background-color: #2563eb;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        padding: 8px;
+    }
+    QPushButton:hover {
+        background-color: #1d4ed8;
+    }
+""")
+
         for widget in [title, self.username_input, self.password_input,
                        login_button, register_button]:
             layout.addWidget(widget)
