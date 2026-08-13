@@ -16,6 +16,13 @@ class BookingWindow(QWidget):
         self.setWindowTitle("Hotel Booking & Payment")
         self.setFixedSize(430, 520)
 
+        self.setStyleSheet("""
+            QWidget {
+                background-color: #d4edda;
+                color: #155724;
+            }
+        """)
+
         layout = QVBoxLayout()
         title = QLabel("Book Hotel Room")
         title.setStyleSheet("font-size: 22px; font-weight: bold;")
