@@ -73,8 +73,8 @@ class DashboardWindow(QWidget):
         main_layout.addWidget(logout_button)
         self.setStyleSheet("""
     QWidget {
-        background-color: #f5f7fb;
-        color: #222222;
+        background-color: #ffffff;
+        color: #3b2f2f;
         font-size: 14px;
     }
 
