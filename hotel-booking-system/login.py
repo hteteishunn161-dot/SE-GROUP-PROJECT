@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 from database import login_user
 from register import RegisterWindow
 from dashboard import DashboardWindow
+from PyQt5.QtCore import Qt
 
 class LoginWindow(QWidget):
     def __init__(self):
@@ -12,6 +13,8 @@ class LoginWindow(QWidget):
         layout = QVBoxLayout()
         title = QLabel("Hotel Booking System")
         title.setStyleSheet("font-size: 24px; font-weight: bold;")
+
+        title.setAlignment(Qt.AlignCenter) 
 
         self.username_input = QLineEdit()
         self.username_input.setPlaceholderText("Username")
