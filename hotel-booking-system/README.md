@@ -63,7 +63,7 @@ python main.py
 - At least 2 Issues
 
 ## Author
-Yamin Shwe Zin Aung
+Htet Ei Shunn
 
 
 ## 20% Deposit Payment Feature
