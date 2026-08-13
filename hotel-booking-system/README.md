@@ -3,16 +3,7 @@
 ## Project Overview
 A Python desktop Hotel Booking Management System using PyQt5 and SQLite3.
 
-## Features
-- User Registration
-- User Login
-- Hotel Room Search
-- Room Availability
-- Room Booking
-- View My Bookings
-- Cancel Booking
-- SQLite database
-- Error handling and validation
+
 
 ## Technologies
 - Python 3
